@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <title>Document</title>
+</head>
+<body>
+    <h1>GUESS THE NUMBER!!!</h1>
+    <h3>RULES:-</h3>
+    <ul>
+        <li>You have <span id="move">10</span> moves.</li>
+        <li>You have to guess the number.</li>
+        <li>Type your guess and you will get the hint.</li>
+        <li>The Value of number can be between 1 to 1000.</li>
+    </ul>
+    <input type="text" id="val" class="form-control w-75" placeholder="Enter Number">
+    <button onclick="fn1()" id="btn1" class="btn btn-primary">GUESS</button>
+    <button onclick="fn2()" id="btn2" class="btn btn-primary">GET HINT</button>
+    <p id="result"></p>
+</body>
+</html>
