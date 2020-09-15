@@ -2,7 +2,6 @@
 var ans = Math.floor(Math.random()*1001);
 var moves = 10
 function fn1 (){
-    console.log(moves);
     var x = document.getElementById("val").value
     if (isNaN(x)){
         alert("Please Enter a Valid Number")
@@ -21,7 +20,7 @@ function fn1 (){
     if (moves==0){
         document.getElementById("btn1").disabled = true
         document.getElementById("btn2").disabled = true
-        document.getElementById("result").innerHTML = "You Lost the game."+"<br />"+" Refresh the browser to play Again."
+        document.getElementById("result").innerHTML = "You Lost the Game. The Number was "+ans
     }
     document.getElementById("move").innerHTML = moves
 }
